@@ -2,12 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Gothic', sans-serif;
 }
 
-body {
+.progress-body {
+  font-family: 'Gothic', sans-serif;
   background: #e3edf7;
-  height: 100vh;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -63,9 +64,9 @@ svg {
   left: 0;
 }
 
-/* 472 - 472 * 0.65 = 165.2 */
+/* 472 - 472 * 0.85 = 185.2 */
 @keyframes anim {
   100% {
-    stroke-dashoffset: 165;
+    stroke-dashoffset: 185;
   }
 }
